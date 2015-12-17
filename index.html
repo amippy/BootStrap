@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Sample</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+  <style>
+  .container{
+    background-color: #01DFA5;
+    margin-top: 20px;
+  }
+  .kawaii{
+    background-color: #FF0080;
+  }
+  header{
+    margin-top: 10px;
+  }
+  .ami{
+    text-align: left;
+  }
+  .ami img{
+    max-width: 150px;
+  }
+  </style>
+  <body>
+    <h1>Hello, world!</h1>
+    <header style="background-color:gray">Header</header>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6" style="background-color:red;">Red</div>
+    <div class="col-sm-5" style="background-color:blue;">Blue</div>
+    <div class="col-sm-1" style="background-color:yellow;">Yellow</div>
+  </div>
+</div>
+<div class="container">
+  <div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr class="kawaii">
+        <th>❤︎</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>NickName</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Ami Nakadate</td>
+        <td>Woman</td>
+        <td>Amippy</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Ykevi Ishida</td>
+        <td>Man</td>
+        <td>Ykebingo</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Adriana Lima</td>
+        <td>Woman</td>
+        <td>Limaa</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+  <h2>Contact Me</h2>
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label for="inputName3" class="col-sm-3 control-label">Name</label>
+      <div class="col-sm-6">
+        <input type="name" class="form-control" id="inputName3" placeholder="Name">
+      </div>
+    </div>
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+    <div class="col-sm-6">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+    <div class="col-sm-6">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-3 col-sm-6">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-8">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+
+  <div class="ami">
+    <img src="ami.jpg" alt="ami.jpg" class="img-circle">
+  </div>
+</form>
+  </div>
+</div>
+
+<footer style="background-color:gray">Footer</footer>
+</body>
+</html>
